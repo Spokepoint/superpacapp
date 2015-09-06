@@ -1,6 +1,9 @@
 hr {
   margin: 5rem 0;
 }
+.row {
+  /*height: 640px;*/
+}
 
 /* NAVBAR */
 .navbar {
@@ -14,9 +17,16 @@ hr {
 .home-content {
   margin-top: 100px;
 }
+.superpac-img {
+  margin-top: 25px;
+}
 
 
 /* PRESS */
+#press {
+  min-height: 500px;
+  padding-top: 100px;
+}
 .press-title {
   margin-bottom: 20px;
 }
