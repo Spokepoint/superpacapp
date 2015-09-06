@@ -1,0 +1,56 @@
+hr {
+  margin: 5rem 0;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: white;
+}
+
+/* HOME */
+#home {
+  margin-top: 56px;
+}
+.home-content {
+  margin-top: 100px;
+}
+
+
+/* PRESS */
+.press-title {
+  margin-bottom: 20px;
+}
+
+.press-list {
+
+}
+.btn-more-press {
+  margin-top: 25px;
+}
+
+/* JOIN */
+.join-content {
+  padding: 150px 0px;
+}
+
+/* CONTACT */
+#contact {
+  text-align: center;
+}
+.contact-title {
+  margin-bottom: 25px;
+}
+.contact-element {
+  margin: 0px 20px;
+}
+.contact-element a {
+  text-decoration: none;
+}
+.fa-3 {
+  font-size: 2em;
+}
+
+/* FOOTER */
+footer {
+  padding-bottom: 50px;
+}
