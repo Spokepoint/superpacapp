@@ -9,6 +9,9 @@ hr {
 .navbar {
   background-color: white;
 }
+.nav-pills {
+  padding-top: 10px;
+}
 
 /* HOME */
 #home {
