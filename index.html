@@ -7,8 +7,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title>Super PAC App</title>
-    <meta name="description" content="Super PAC App A mobile app for Super PACs, bringing transparency to the 2012 U.S. presidential election."/>
-    <meta name="keywords" content="super pac, super pack, colbert, political ads, 2012, attack ads, US presidential election, Barack Obama, Mitt Romney, campaign finance"/>
+    <meta name="description" content="Super PAC App - A mobile app for Super PACs, bringing transparency to the 2016 U.S. presidential election."/>
+    <meta name="keywords" content="super pac, superpac, political ads, US presidential election, campaign finance, political action committee, PAC"/>
 
 
     <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
@@ -45,26 +45,31 @@
       </ul>
     </nav>
 
+    <!-- home -->
+    <div class="home-container">
     <div class="container">
-      <!-- home -->
       <div id="home" class="row">
-        <div class="col-md-7 home-content">
-          <h1>Super PAC App</h1>
-          <h3>Transparency in Politics</h3>
-          <p class="lead text-muted">Something short and leading. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
+        <div class="col-md-7 home-content-left">
+          <h1 class="title">Super PAC App</h1>
+          <h3 class="subtitle">Transparency in Politics</h3>
+          <p class="lead">Something short and leading. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
           <p>
-            <a href="#join" class="btn btn-primary">Join our community for 2016!</a>
+            <a href="#join" class="btn btn-warning">Join our community for 2016!</a>
           </p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 home-content-right">
           <img class="superpac-img img-responsive center-block" data-src="holder.js/500x500/auto" alt="500x500" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCIgdmlld0JveD0iMCAwIDUwMCA1MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzUwMHg1MDAvYXV0bwpDcmVhdGVkIHdpdGggSG9sZGVyLmpzIDIuNi4wLgpMZWFybiBtb3JlIGF0IGh0dHA6Ly9ob2xkZXJqcy5jb20KKGMpIDIwMTItMjAxNSBJdmFuIE1hbG9waW5za3kgLSBodHRwOi8vaW1za3kuY28KLS0+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48IVtDREFUQVsjaG9sZGVyXzE0ZmEyNDUyZjliIHRleHQgeyBmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MjVwdCB9IF1dPjwvc3R5bGU+PC9kZWZzPjxnIGlkPSJob2xkZXJfMTRmYTI0NTJmOWIiPjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNTAwIiBmaWxsPSIjRUVFRUVFIi8+PGc+PHRleHQgeD0iMTg1LjEyNSIgeT0iMjYxLjEiPjUwMHg1MDA8L3RleHQ+PC9nPjwvZz48L3N2Zz4=" data-holder-rendered="true">
         </div>
       </div>
+    </div>
+    </div>
 
-      <hr>
+    <div class="container">
+
+      <hr id="join">
 
       <!-- join -->
-      <div id="join" class="row">
+      <div class="row">
         <div class="col-md-6">
           <div class="join-content">
             <h2>Join our Community for 2016:</h2>
@@ -88,39 +93,59 @@
         </div>
       </div>
 
-      <hr>
+      <hr id="press">
 
       <!-- press -->
-      <div id="press" class="row">
+      <div class="row">
         <div class="col-md-12">
-          <h2 class="press-title">What the Press said about Super PAC App 2012</h2>
+          <h2 class="press-title">
+            <i class="fa fa-newspaper-o">&nbsp;</i>
+            What the Press said about Super PAC App 2012
+          </h2>
 
-          <!--
-            TODO: overflow and scroll news?
-          -->
           <ul class="list-group press-list">
             <a href="http://abcnews.go.com/Technology/republican-democratic-convention-2012-apps-handy/story?id=17060927" target="_blank" class="list-group-item">
-              ABC NEWS: A Must-Have Election App
+              <img class="media-logo" src="images/logo-abc-news.png">
+              <span class="media-quote">"A Must-Have Election App"</span>
             </a>
             <a href="http://www.forbes.com/sites/natalierobehmed/2012/07/17/is-that-ad-super-pac-backed-this-app-will-tell-you/" target="_blank" class="list-group-item">
-              Forbes: Which Super PAC finances certain ads? ... Well, there's an app for that.
+              <img class="media-logo" src="images/logo-forbes.png">
+              <span class="media-quote">"Which Super PAC finances certain ads? ... Well, there's an app for that."</span>
             </a>
-            <a href="http://mashable.com/2012/08/22/superpac-app/" target="_blank" class="list-group-item">
-              Mashable: Who's Behind That Politcal Ad? This App Tells You
+            <a href="http://www.theverge.com/2012/8/22/3260200/super-pac-app-ios-filters-noise-political-ads" target="_blank" class="list-group-item">
+              <img class="media-logo" src="images/logo-the-verge.png">
+              <span class="media-quote">"Super PAC App for iPhone and iPad filters out the noise in politcal ads"</span>
             </a>
             <a href="http://edition.cnn.com/2012/08/22/tech/mobile/super-pac-app-campaign" target="_blank" class="list-group-item">
-              CNN: Super PAC App knows when political ads stretch the truth.
+              <img class="media-logo" src="images/logo-cnn.png">
+              <span class="media-quote">"Super PAC App knows when political ads stretch the truth."</span>
             </a>
+            <a href="http://www.lemonde.fr/elections-americaines/article/2012/09/27/elections-americaines-devine-qui-est-derriere-cette-pub_1767060_829254.html" target="_blank" class="list-group-item">
+              <img class="media-logo" src="images/logo-le-monde.png">
+              <span class="media-quote">"Elections américaines : devine qui est derrière cette pub ?"</span>
+            </a>
+          <!--
+            TODO: overflow and scroll news
+          -->
+            <!--
+            <a href="" target="_blank" class="list-group-item">
+              <span class="media-name"></span>
+              <span class="media-quote"></span>
+            </a>
+            -->
           </ul>
 
+          <!-- TODO: show/hide press; view more, view less -->
+          <!--
           <button type="button" class="btn-more-press btn btn-primary-outline btn-block">View More</button>
+          -->
         </div>
       </div>
 
-      <hr>
+      <hr id="contact">
 
       <!-- contact -->
-      <div id="contact" class="row">
+      <div class="row contact">
         <div class="col-md-12">
           <h2 class="contact-title">Get in touch with us</h2>
 
@@ -154,7 +179,7 @@
       <!-- footer -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2015 Glassy Media, Inc. <!--· <a href="#">Privacy</a> · <a href="#">Terms</a>--></p>
+        <p>&copy; 2015 Glassy Media, Inc. · <a href="tos.html" target="_blank">Terms of Service</a></p>
       </footer>
     </div>
   </body>

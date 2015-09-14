@@ -1,11 +1,11 @@
+/******** COMMON ********/
 hr {
   margin: 5rem 0;
 }
-.row {
-  /*height: 640px;*/
-}
 
-/* NAVBAR */
+
+
+/******** NAVBAR ********/
 .navbar {
   background-color: white;
 }
@@ -13,23 +13,49 @@ hr {
   padding-top: 10px;
 }
 
-/* HOME */
-#home {
-  margin-top: 56px;
+
+
+/******** HOME ********/
+.home-container {
+  background: url("../images/background1.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.home-content {
+
+#home {
+  padding: 100px 25px 25px 25px;
+  color: white;
+}
+.home-content-left {
   margin-top: 100px;
 }
+.home-content-left .title {
+  font-weight: bold
+}
+.home-content-left .subtitle {
+  font-style: italic;
+}
+.home-content-left .lead {
+  margin-top: 30px;
+}
+
+.home-content-right {
+}
 .superpac-img {
-  margin-top: 25px;
 }
 
 
-/* PRESS */
-#press {
-  min-height: 500px;
-  padding-top: 100px;
+
+/******** JOIN ********/
+.join-content {
+  padding: 150px 0px;
 }
+
+
+
+/******** PRESS ********/
 .press-title {
   margin-bottom: 20px;
 }
@@ -37,17 +63,27 @@ hr {
 .press-list {
 
 }
+.media-logo {
+  margin-left: 10px;
+  margin-right: 25px;
+
+  max-height: 75px;
+  width: 200px;
+}
+.media-name {
+
+}
+.media-quote {
+  font-style: italic;
+}
+
 .btn-more-press {
   margin-top: 25px;
 }
 
-/* JOIN */
-.join-content {
-  padding: 150px 0px;
-}
 
-/* CONTACT */
-#contact {
+/******** CONTACT ********/
+.contact {
   text-align: center;
 }
 .contact-title {
@@ -63,7 +99,9 @@ hr {
   font-size: 2em;
 }
 
-/* FOOTER */
+
+
+/******** FOOTER ********/
 footer {
   padding-bottom: 50px;
 }
