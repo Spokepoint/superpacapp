@@ -3,6 +3,13 @@ hr {
   margin: 5rem 0;
 }
 
+.callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-radius: .25rem;
+}
 
 
 /******** NAVBAR ********/
@@ -29,7 +36,7 @@ hr {
   color: white;
 }
 .home-content-left {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .home-content-left .title {
   font-weight: bold
@@ -40,6 +47,10 @@ hr {
 .home-content-left .lead {
   margin-top: 30px;
 }
+.join-wrapper {
+  background-color: rgba(0,0,0,0.5)
+}
+
 
 .home-content-right {
 }
