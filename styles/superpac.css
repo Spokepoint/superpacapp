@@ -1,4 +1,8 @@
 /******** COMMON ********/
+body {
+  background-color: #FCFCFC;
+}
+
 hr {
   margin: 5rem 0;
 }
