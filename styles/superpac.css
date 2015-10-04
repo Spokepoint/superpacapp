@@ -24,7 +24,6 @@ hr:first {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-
 .section-title {
   margin-bottom: 25px;
 }
@@ -111,6 +110,10 @@ hr:first {
 }
 
 /******** PRESS ********/
+.all-press-container .section-title {
+  margin-top: 100px;
+}
+
 .press-section {
 
 }
@@ -135,6 +138,7 @@ hr:first {
 
 .btn-more-press {
   margin-top: 25px;
+  float: right;
 }
 
 /******** CONTACT ********/
