@@ -5,10 +5,6 @@ body {
   font-size: 0.9rem;
 }
 
-hr {
-  margin: 5rem 0;
-}
-
 .callout {
   padding: 1.25rem;
   margin-top: 1.25rem;
@@ -17,7 +13,21 @@ hr {
   border-radius: .25rem;
 }
 
+hr {
+  margin: 5rem 0;
+}
+hr:first {
+  margin-top: 105px;
+}
 
+.section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.section-title {
+  margin-bottom: 25px;
+}
 
 /******** NAVBAR ********/
 .navbar {
@@ -26,8 +36,6 @@ hr {
 .nav-pills {
   padding-top: 10px;
 }
-
-
 
 /******** HOME ********/
 .home-container {
@@ -43,15 +51,15 @@ hr {
   color: white;
 }
 .home-content-left {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .home-content-left .title {
   font-weight: bold;
   font-size: 50px;
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
 }
 .home-content-left .subtitle {
-  font-style: italic;
 }
 .home-content-left .lead {
   margin-top: 30px;
@@ -66,18 +74,32 @@ hr {
 .superpac-img {
 }
 
-
-
 /******** JOIN ********/
 .join-content {
   padding: 150px 0px;
 }
 
+/******** OUR STORY ********/
+.our-story-section {
 
+}
+.our-story-title {
+}
+.our-story-content {
+  font-size: 20px;
+}
+.our-story-content p {
+  margin-bottom: 20px;
+}
+.our-story-content p:last-child {
+  margin-bottom: 0px;
+}
 
 /******** PRESS ********/
+.press-section {
+
+}
 .press-title {
-  margin-bottom: 20px;
 }
 
 .press-list {
@@ -94,24 +116,23 @@ hr {
 
 }
 .media-quote {
-  font-style: italic;
 }
 
 .btn-more-press {
   margin-top: 25px;
 }
 
-
-
 /******** CONTACT ********/
-.contact {
+.contact-section {
   text-align: center;
 }
 .contact-title {
-  margin-bottom: 50px;
 }
 .contact-element {
   margin: 0px 20px 20px 20px;
+}
+.contact-element .contact-label {
+  vertical-align: super;
 }
 .contact-element a {
   text-decoration: none;
@@ -119,8 +140,6 @@ hr {
 .fa-3 {
   font-size: 2em;
 }
-
-
 
 /******** FOOTER ********/
 footer {
