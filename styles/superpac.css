@@ -71,7 +71,23 @@ hr:first {
 
 .home-content-right {
 }
-.superpac-img {
+.hdr-iphone {
+  background: url("../images/app-iphone.png") center top no-repeat;
+  height: 500px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: -42px;
+  width: 389px;
+}
+.hdr-iphone-screens {
+  background-color: #000;
+  height: 275px;
+  position: absolute;
+  overflow: hidden;
+  top: 91px;
+  right: 31px;
+  width: 184px;
 }
 
 /******** JOIN ********/
