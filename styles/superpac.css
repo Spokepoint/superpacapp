@@ -177,13 +177,17 @@ footer {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media (max-width: 480px) {
+  .navbar {
+    position: relative;
+  }
+
   .navbar-brand,
   nav .nav-item {
     display: block;
     float: none !important;
   }
   .home-section {
-    padding-top: 250px !important;
+    padding-top: 25px !important;
   }
 
   .press-list .list-group-item {
