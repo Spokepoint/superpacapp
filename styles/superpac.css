@@ -170,3 +170,51 @@ hr:first {
 footer {
   padding-bottom: 50px;
 }
+
+
+
+/******** RESPONSIVE ********/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-width: 480px) {
+  .press-list .list-group-item {
+    text-align: center;
+  }
+
+  .media-logo,
+  .media-quote {
+    display: block;
+    max-width: 100%;
+  }
+  .media-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .media-quote {
+    margin-top: 10px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .home-content-right {
+    visibility: hidden;
+  }
+
+  #mc-embedded-subscribe {
+    margin-top: 10px;
+  }
+
+  .media-logo {
+    max-width: 30%;
+  }
+  .media-quote {
+    max-width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .contact-element {
+    display: block !important;
+  }
+}
