@@ -193,6 +193,10 @@ footer {
   .media-quote {
     margin-top: 10px;
   }
+
+  footer .back-to-top {
+    float: none !important;
+  }
 }
 
 /* Small devices (tablets, 768px and up) */
