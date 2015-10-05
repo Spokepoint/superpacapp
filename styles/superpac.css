@@ -177,6 +177,15 @@ footer {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 @media (max-width: 480px) {
+  .navbar-brand,
+  nav .nav-item {
+    display: block;
+    float: none !important;
+  }
+  .home-section {
+    padding-top: 250px !important;
+  }
+
   .press-list .list-group-item {
     text-align: center;
   }
@@ -220,5 +229,12 @@ footer {
 
   .contact-element {
     display: block !important;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  #mce-EMAIL {
+    width: 100%;
   }
 }
