@@ -200,7 +200,6 @@ footer {
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   .home-content-right {
-    visibility: hidden;
   }
 
   #mc-embedded-subscribe {
