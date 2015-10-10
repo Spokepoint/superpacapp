@@ -50,7 +50,6 @@ hr:first {
   color: white;
 }
 .home-content-left {
-  margin-top: 20px;
 }
 .home-content-left .title {
   font-weight: bold;
@@ -75,23 +74,9 @@ hr:first {
 
 .home-content-right {
 }
-.hdr-iphone {
-  background: url("../images/app-iphone.png") center top no-repeat;
-  height: 500px;
-  overflow: hidden;
-  position: absolute;
-  right: 0;
-  top: -42px;
-  width: 389px;
-}
-.hdr-iphone-screens {
-  background-color: #000;
-  height: 275px;
-  position: absolute;
-  overflow: hidden;
-  top: 91px;
-  right: 31px;
-  width: 184px;
+.app-ss {
+  max-width: 100%;
+  opacity: 0.8;
 }
 
 /******** JOIN ********/
