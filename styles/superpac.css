@@ -197,13 +197,27 @@ footer {
   }
 }
 
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  #mce-EMAIL {
+    width: 70%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (max-width: 992px) {
+  #mce-EMAIL {
+    width: 100%;
+  }
+  #mc-embedded-subscribe {
+    margin-top: 10px;
+  }
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   .home-content-right {
-  }
-
-  #mc-embedded-subscribe {
-    margin-top: 10px;
   }
 
   .media-logo {
@@ -217,12 +231,5 @@ footer {
 
   .contact-element {
     display: block !important;
-  }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (max-width: 1200px) {
-  #mce-EMAIL {
-    width: 100%;
   }
 }
